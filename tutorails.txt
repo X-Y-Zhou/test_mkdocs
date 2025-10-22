@@ -1,0 +1,26 @@
+确保有python环境，安装对应的mkdocs的包
+pip install mkdocs mkdocs-material pymdown-extensions
+
+新建空文件夹，存放网站的内容，在终端中打开这个文件夹
+创建新的mkdocs网站 mkdocs new [name]
+
+进入[name]的文件夹，在终端中打开，启动服务器进行本地预览 mkdocs serve
+将会出现网址，直接进入即可
+
+在mkdocs.yml里面添加
+theme:
+        name: material
+即可更换主题
+
+
+直接在github desktop中创建public的仓库，进入github网站，Settings - Pages - Sources - Github Actions
+将这个仓库在终端打开，创建新的mkdocs网站 mkdocs new [name] 将里面的东西全拿出来
+
+在mkdocs.yml里面添加
+theme:
+        name: material
+即可更换主题
+
+创建文件夹以及yml文件，用于在Github上的部署 .github/workflows/Documentation.yml
+
+
