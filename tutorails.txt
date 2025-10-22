@@ -1,3 +1,5 @@
+利用python中的mkdocs的来建立网站
+
 确保有python环境，安装对应的mkdocs的包
 pip install mkdocs mkdocs-material pymdown-extensions
 
