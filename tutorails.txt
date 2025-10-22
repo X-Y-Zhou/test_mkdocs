@@ -23,4 +23,4 @@ theme:
 
 创建文件夹以及yml文件，用于在Github上的部署 .github/workflows/Documentation.yml
 
-push上即可
+push上即可，等待Actions中的部署
