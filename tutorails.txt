@@ -24,9 +24,11 @@ theme:
         name: material
 即可更换主题
 
-创建文件夹以及yml文件， .github/workflows/Documentation.yml，用于在Github上的部署
+创建文件夹以及用于在Github上的部署yml文件，具体的内容在 .github/workflows/Documentation.yml，
 
 push上即可，等待Actions中的部署，等待部署完成在Actions中即可看到对应的网址
+
+在美化网站的时候先在终端打开这个文件夹，启动服务器进行本地预览 mkdocs serve， 美化完成之后再push到github上进行部署
 
 常用素材网站
 https://squidfunk.github.io/mkdocs-material/
